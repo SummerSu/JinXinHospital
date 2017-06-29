@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E8B2E81F00F3F0003DA1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B2E71F00F3F0003DA1A6 /* main.m */; };
+		C4E8B2EB1F00F3F0003DA1A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B2EA1F00F3F0003DA1A6 /* AppDelegate.m */; };
+		C4E8B2EE1F00F3F0003DA1A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B2ED1F00F3F0003DA1A6 /* ViewController.m */; };
+		C4E8B2F11F00F3F0003DA1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E8B2EF1F00F3F0003DA1A6 /* Main.storyboard */; };
+		C4E8B2F41F00F3F0003DA1A6 /* JinXinHospital.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B2F21F00F3F0003DA1A6 /* JinXinHospital.xcdatamodeld */; };
+		C4E8B2F61F00F3F0003DA1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E8B2F51F00F3F0003DA1A6 /* Assets.xcassets */; };
+		C4E8B2F91F00F3F0003DA1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E8B2F71F00F3F0003DA1A6 /* LaunchScreen.storyboard */; };
+		C4E8B3041F00F3F1003DA1A6 /* JinXinHospitalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B3031F00F3F1003DA1A6 /* JinXinHospitalTests.m */; };
+		C4E8B30F1F00F3F1003DA1A6 /* JinXinHospitalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B30E1F00F3F1003DA1A6 /* JinXinHospitalUITests.m */; };
+		C61AAF41B264969F0B54F36A /* libPods-JinXinHospital.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 948594BCD1BCE489A2137D6A /* libPods-JinXinHospital.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E8B3001F00F3F1003DA1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E8B2DB1F00F3F0003DA1A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E8B2E21F00F3F0003DA1A6;
+			remoteInfo = JinXinHospital;
+		};
+		C4E8B30B1F00F3F1003DA1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E8B2DB1F00F3F0003DA1A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E8B2E21F00F3F0003DA1A6;
+			remoteInfo = JinXinHospital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BE6A8DC74015D0954948DC /* Pods-JinXinHospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinXinHospital.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JinXinHospital/Pods-JinXinHospital.debug.xcconfig"; sourceTree = "<group>"; };
+		948594BCD1BCE489A2137D6A /* libPods-JinXinHospital.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinXinHospital.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A846DE536C144329775968BF /* Pods-JinXinHospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinXinHospital.release.xcconfig"; path = "Pods/Target Support Files/Pods-JinXinHospital/Pods-JinXinHospital.release.xcconfig"; sourceTree = "<group>"; };
+		C4E8B2E31F00F3F0003DA1A6 /* JinXinHospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JinXinHospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E8B2E71F00F3F0003DA1A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E8B2E91F00F3F0003DA1A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4E8B2EA1F00F3F0003DA1A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4E8B2EC1F00F3F0003DA1A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4E8B2ED1F00F3F0003DA1A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E8B2F01F00F3F0003DA1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E8B2F31F00F3F0003DA1A6 /* JinXinHospital.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JinXinHospital.xcdatamodel; sourceTree = "<group>"; };
+		C4E8B2F51F00F3F0003DA1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E8B2F81F00F3F0003DA1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E8B2FA1F00F3F0003DA1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E8B2FF1F00F3F1003DA1A6 /* JinXinHospitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinXinHospitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E8B3031F00F3F1003DA1A6 /* JinXinHospitalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinXinHospitalTests.m; sourceTree = "<group>"; };
+		C4E8B3051F00F3F1003DA1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E8B30A1F00F3F1003DA1A6 /* JinXinHospitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinXinHospitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E8B30E1F00F3F1003DA1A6 /* JinXinHospitalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinXinHospitalUITests.m; sourceTree = "<group>"; };
+		C4E8B3101F00F3F1003DA1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E8B2E01F00F3F0003DA1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61AAF41B264969F0B54F36A /* libPods-JinXinHospital.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B2FC1F00F3F1003DA1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B3071F00F3F1003DA1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26C9472B2D3BE13287CA7E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04BE6A8DC74015D0954948DC /* Pods-JinXinHospital.debug.xcconfig */,
+				A846DE536C144329775968BF /* Pods-JinXinHospital.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C482F9ED1F020AD6004F780A /* JXHTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JXHTools;
+			sourceTree = "<group>";
+		};
+		C482F9EE1F020AD6004F780A /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetRequest;
+			sourceTree = "<group>";
+		};
+		C4B9A2FE1F04D1C0003E6EEF /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A2FF1F04D1C0003E6EEF /* Model */,
+				C4B9A3001F04D1C0003E6EEF /* View */,
+				C4B9A3011F04D1C0003E6EEF /* ViewController */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		C4B9A2FF1F04D1C0003E6EEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4B9A3001F04D1C0003E6EEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4B9A3011F04D1C0003E6EEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C4B9A3021F04D1C0003E6EEF /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A3031F04D1C0003E6EEF /* Model */,
+				C4B9A3041F04D1C0003E6EEF /* View */,
+				C4B9A3051F04D1C0003E6EEF /* ViewController */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		C4B9A3031F04D1C0003E6EEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4B9A3041F04D1C0003E6EEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4B9A3051F04D1C0003E6EEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C4B9A3061F04D1C0003E6EEF /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A3071F04D1C0003E6EEF /* Model */,
+				C4B9A3081F04D1C0003E6EEF /* View */,
+				C4B9A3091F04D1C0003E6EEF /* ViewController */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		C4B9A3071F04D1C0003E6EEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4B9A3081F04D1C0003E6EEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4B9A3091F04D1C0003E6EEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C4E8B2DA1F00F3F0003DA1A6 = {
+			isa = PBXGroup;
+			children = (
+				C4E8B2E51F00F3F0003DA1A6 /* JinXinHospital */,
+				C4E8B3021F00F3F1003DA1A6 /* JinXinHospitalTests */,
+				C4E8B30D1F00F3F1003DA1A6 /* JinXinHospitalUITests */,
+				C4E8B2E41F00F3F0003DA1A6 /* Products */,
+				B26C9472B2D3BE13287CA7E0 /* Pods */,
+				FE309209D4240631107C22BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E8B2E41F00F3F0003DA1A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B2E31F00F3F0003DA1A6 /* JinXinHospital.app */,
+				C4E8B2FF1F00F3F1003DA1A6 /* JinXinHospitalTests.xctest */,
+				C4E8B30A1F00F3F1003DA1A6 /* JinXinHospitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E8B2E51F00F3F0003DA1A6 /* JinXinHospital */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A2FE1F04D1C0003E6EEF /* Diary */,
+				C4B9A3021F04D1C0003E6EEF /* HomePage */,
+				C4B9A3061F04D1C0003E6EEF /* Personal */,
+				C482F9ED1F020AD6004F780A /* JXHTools */,
+				C482F9EE1F020AD6004F780A /* NetRequest */,
+				C4E8B2E91F00F3F0003DA1A6 /* AppDelegate.h */,
+				C4E8B2EA1F00F3F0003DA1A6 /* AppDelegate.m */,
+				C4E8B2EC1F00F3F0003DA1A6 /* ViewController.h */,
+				C4E8B2ED1F00F3F0003DA1A6 /* ViewController.m */,
+				C4E8B2EF1F00F3F0003DA1A6 /* Main.storyboard */,
+				C4E8B2F51F00F3F0003DA1A6 /* Assets.xcassets */,
+				C4E8B2F71F00F3F0003DA1A6 /* LaunchScreen.storyboard */,
+				C4E8B2FA1F00F3F0003DA1A6 /* Info.plist */,
+				C4E8B2F21F00F3F0003DA1A6 /* JinXinHospital.xcdatamodeld */,
+				C4E8B2E61F00F3F0003DA1A6 /* Supporting Files */,
+			);
+			path = JinXinHospital;
+			sourceTree = "<group>";
+		};
+		C4E8B2E61F00F3F0003DA1A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B2E71F00F3F0003DA1A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4E8B3021F00F3F1003DA1A6 /* JinXinHospitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B3031F00F3F1003DA1A6 /* JinXinHospitalTests.m */,
+				C4E8B3051F00F3F1003DA1A6 /* Info.plist */,
+			);
+			path = JinXinHospitalTests;
+			sourceTree = "<group>";
+		};
+		C4E8B30D1F00F3F1003DA1A6 /* JinXinHospitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8B30E1F00F3F1003DA1A6 /* JinXinHospitalUITests.m */,
+				C4E8B3101F00F3F1003DA1A6 /* Info.plist */,
+			);
+			path = JinXinHospitalUITests;
+			sourceTree = "<group>";
+		};
+		FE309209D4240631107C22BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948594BCD1BCE489A2137D6A /* libPods-JinXinHospital.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E8B2E21F00F3F0003DA1A6 /* JinXinHospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E8B3131F00F3F1003DA1A6 /* Build configuration list for PBXNativeTarget "JinXinHospital" */;
+			buildPhases = (
+				B6ABDAD5C97A34946C104D63 /* [CP] Check Pods Manifest.lock */,
+				C4E8B2DF1F00F3F0003DA1A6 /* Sources */,
+				C4E8B2E01F00F3F0003DA1A6 /* Frameworks */,
+				C4E8B2E11F00F3F0003DA1A6 /* Resources */,
+				91FC7FE6FEEAE2E3BFBCF697 /* [CP] Embed Pods Frameworks */,
+				A633151F3B82A2258178713F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JinXinHospital;
+			productName = JinXinHospital;
+			productReference = C4E8B2E31F00F3F0003DA1A6 /* JinXinHospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E8B2FE1F00F3F1003DA1A6 /* JinXinHospitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E8B3161F00F3F1003DA1A6 /* Build configuration list for PBXNativeTarget "JinXinHospitalTests" */;
+			buildPhases = (
+				C4E8B2FB1F00F3F1003DA1A6 /* Sources */,
+				C4E8B2FC1F00F3F1003DA1A6 /* Frameworks */,
+				C4E8B2FD1F00F3F1003DA1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E8B3011F00F3F1003DA1A6 /* PBXTargetDependency */,
+			);
+			name = JinXinHospitalTests;
+			productName = JinXinHospitalTests;
+			productReference = C4E8B2FF1F00F3F1003DA1A6 /* JinXinHospitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E8B3091F00F3F1003DA1A6 /* JinXinHospitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E8B3191F00F3F1003DA1A6 /* Build configuration list for PBXNativeTarget "JinXinHospitalUITests" */;
+			buildPhases = (
+				C4E8B3061F00F3F1003DA1A6 /* Sources */,
+				C4E8B3071F00F3F1003DA1A6 /* Frameworks */,
+				C4E8B3081F00F3F1003DA1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E8B30C1F00F3F1003DA1A6 /* PBXTargetDependency */,
+			);
+			name = JinXinHospitalUITests;
+			productName = JinXinHospitalUITests;
+			productReference = C4E8B30A1F00F3F1003DA1A6 /* JinXinHospitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E8B2DB1F00F3F0003DA1A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sunsu;
+				TargetAttributes = {
+					C4E8B2E21F00F3F0003DA1A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5VRS26AT5H;
+						ProvisioningStyle = Automatic;
+					};
+					C4E8B2FE1F00F3F1003DA1A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5VRS26AT5H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4E8B2E21F00F3F0003DA1A6;
+					};
+					C4E8B3091F00F3F1003DA1A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5VRS26AT5H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4E8B2E21F00F3F0003DA1A6;
+					};
+				};
+			};
+			buildConfigurationList = C4E8B2DE1F00F3F0003DA1A6 /* Build configuration list for PBXProject "JinXinHospital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E8B2DA1F00F3F0003DA1A6;
+			productRefGroup = C4E8B2E41F00F3F0003DA1A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E8B2E21F00F3F0003DA1A6 /* JinXinHospital */,
+				C4E8B2FE1F00F3F1003DA1A6 /* JinXinHospitalTests */,
+				C4E8B3091F00F3F1003DA1A6 /* JinXinHospitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E8B2E11F00F3F0003DA1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8B2F91F00F3F0003DA1A6 /* LaunchScreen.storyboard in Resources */,
+				C4E8B2F61F00F3F0003DA1A6 /* Assets.xcassets in Resources */,
+				C4E8B2F11F00F3F0003DA1A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B2FD1F00F3F1003DA1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B3081F00F3F1003DA1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91FC7FE6FEEAE2E3BFBCF697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JinXinHospital/Pods-JinXinHospital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A633151F3B82A2258178713F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JinXinHospital/Pods-JinXinHospital-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6ABDAD5C97A34946C104D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E8B2DF1F00F3F0003DA1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8B2EE1F00F3F0003DA1A6 /* ViewController.m in Sources */,
+				C4E8B2EB1F00F3F0003DA1A6 /* AppDelegate.m in Sources */,
+				C4E8B2E81F00F3F0003DA1A6 /* main.m in Sources */,
+				C4E8B2F41F00F3F0003DA1A6 /* JinXinHospital.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B2FB1F00F3F1003DA1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8B3041F00F3F1003DA1A6 /* JinXinHospitalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B3061F00F3F1003DA1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8B30F1F00F3F1003DA1A6 /* JinXinHospitalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E8B3011F00F3F1003DA1A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E8B2E21F00F3F0003DA1A6 /* JinXinHospital */;
+			targetProxy = C4E8B3001F00F3F1003DA1A6 /* PBXContainerItemProxy */;
+		};
+		C4E8B30C1F00F3F1003DA1A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E8B2E21F00F3F0003DA1A6 /* JinXinHospital */;
+			targetProxy = C4E8B30B1F00F3F1003DA1A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E8B2EF1F00F3F0003DA1A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E8B2F01F00F3F0003DA1A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E8B2F71F00F3F0003DA1A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E8B2F81F00F3F0003DA1A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E8B3111F00F3F1003DA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4E8B3121F00F3F1003DA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E8B3141F00F3F1003DA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BE6A8DC74015D0954948DC /* Pods-JinXinHospital.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VRS26AT5H;
+				INFOPLIST_FILE = JinXinHospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jskj.JinXinHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E8B3151F00F3F1003DA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A846DE536C144329775968BF /* Pods-JinXinHospital.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VRS26AT5H;
+				INFOPLIST_FILE = JinXinHospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jskj.JinXinHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E8B3171F00F3F1003DA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5VRS26AT5H;
+				INFOPLIST_FILE = JinXinHospitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jskj.JinXinHospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JinXinHospital.app/JinXinHospital";
+			};
+			name = Debug;
+		};
+		C4E8B3181F00F3F1003DA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5VRS26AT5H;
+				INFOPLIST_FILE = JinXinHospitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jskj.JinXinHospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JinXinHospital.app/JinXinHospital";
+			};
+			name = Release;
+		};
+		C4E8B31A1F00F3F1003DA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5VRS26AT5H;
+				INFOPLIST_FILE = JinXinHospitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jskj.JinXinHospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JinXinHospital;
+			};
+			name = Debug;
+		};
+		C4E8B31B1F00F3F1003DA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5VRS26AT5H;
+				INFOPLIST_FILE = JinXinHospitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jskj.JinXinHospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JinXinHospital;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E8B2DE1F00F3F0003DA1A6 /* Build configuration list for PBXProject "JinXinHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E8B3111F00F3F1003DA1A6 /* Debug */,
+				C4E8B3121F00F3F1003DA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E8B3131F00F3F1003DA1A6 /* Build configuration list for PBXNativeTarget "JinXinHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E8B3141F00F3F1003DA1A6 /* Debug */,
+				C4E8B3151F00F3F1003DA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E8B3161F00F3F1003DA1A6 /* Build configuration list for PBXNativeTarget "JinXinHospitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E8B3171F00F3F1003DA1A6 /* Debug */,
+				C4E8B3181F00F3F1003DA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E8B3191F00F3F1003DA1A6 /* Build configuration list for PBXNativeTarget "JinXinHospitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E8B31A1F00F3F1003DA1A6 /* Debug */,
+				C4E8B31B1F00F3F1003DA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4E8B2F21F00F3F0003DA1A6 /* JinXinHospital.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4E8B2F31F00F3F0003DA1A6 /* JinXinHospital.xcdatamodel */,
+			);
+			currentVersion = C4E8B2F31F00F3F0003DA1A6 /* JinXinHospital.xcdatamodel */;
+			path = JinXinHospital.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4E8B2DB1F00F3F0003DA1A6 /* Project object */;
+}
